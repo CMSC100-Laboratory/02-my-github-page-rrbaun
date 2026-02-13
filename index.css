@@ -1,0 +1,148 @@
+html {
+    scroll-behavior:smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family:"Verdana", serif;
+    background-color:#130c29;
+    color:#f0f0bf;
+}
+
+body h1 {
+    color:rgb(251, 174, 41)
+}
+
+nav {
+  position: fixed;
+  top: 40px;
+  left: 50px;
+  padding: 10px;
+  background-color: hsl(254, 55%, 10%, 50%);
+  z-index: 10;
+}
+
+nav a {
+    color: #e3e096;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav a:hover {
+    color:#e8d349;
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 40px;
+    padding:20px;
+}
+
+.header-image {
+    position:relative;
+    opacity:75%;
+    padding-bottom: 20px;
+}
+
+section {
+    padding:20px;
+}
+
+.about-container {
+    background-color: #070315;
+    padding:50px;
+    display:flex;
+    gap:25px;
+    align-items: flex-start;
+}
+
+.about-container p {
+    padding:20px;
+}
+
+.about-left {
+    width:120%;
+}
+
+.about-right {
+    position:relative;
+}
+
+.about-right #about-title {
+    margin-bottom:15px;
+    padding-left: 10px;
+}
+
+.about-right #about-desc {
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+.skill-container {
+    display: flex;
+    flex-wrap:wrap;
+    margin-top: 80px;
+    padding:40px;
+    background-color: #070315;
+    gap:30px;
+    justify-content:center;
+}
+
+.skill-container img {
+    width:200px;
+    height: 20%;
+    align-self: center;
+}
+
+.skill-img:hover {
+    transform: scale(1.1);
+}
+
+.project {
+    background-color: #070315;
+    padding:50px;
+    display:flex;
+    gap:25px;
+    align-items: flex-start;
+}
+
+.proj-desc {
+    font-size: small;
+    opacity:0;
+}
+
+.project:hover proj-desc {
+    opacity:1;
+}
+
+#contacts {
+    text-align: center;
+    letter-spacing: 1px;
+    background: #070315;
+    padding:20px;
+}
+
+#contacts a {
+    color: #e3de96;
+    text-decoration: none;
+    font-size: smaller;
+}
+
+#contacts a:hover{
+    color:#e8d349;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
