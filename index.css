@@ -107,21 +107,31 @@ section {
     transform: scale(1.1);
 }
 
-.project {
+.project-container {
     background-color: #070315;
     padding:50px;
-    display:flex;
-    gap:25px;
-    align-items: flex-start;
+}
+
+.project {
+    margin:50px;
+    align-content: center;
+}
+
+.project img {
+    width:50%;
+    border: #241555;
+    border-style: solid;
 }
 
 .proj-desc {
-    font-size: small;
-    opacity:0;
+    width: 45%;
+    margin: 20px;
+    margin-bottom:10px;
+    text-align: center;
 }
 
-.project:hover proj-desc {
-    opacity:1;
+.proj-desc h2 {
+    margin-bottom:10px;
 }
 
 #contacts {
